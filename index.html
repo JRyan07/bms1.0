@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <link rel="stylesheet" href="app.css" />
+    <title>APP1.0</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="logo">BMS</h1>
+        <nav id="menu">
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Track</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <svg
+          onclick="menuShow()"
+          onblur="menuClose()"
+          id="burger"
+          fill=" #FFFFFF"
+          viewBox="0 0 448 512"
+          title="bars"
+        >
+          <path
+            d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+          />
+        </svg>
+      </div>
+    </header>
+    <section class="about" id="home">
+      <img src="images/Mapulang-Lupa.png" alt="" />
+      <div class="info">
+        <h2>Welcome to</h2>
+        <h1>Brgy. Mapulang Lupa</h1>
+        <p>
+          <span>Address:</span> Sto. Rosario St. Mapulang Lupa, Valenzuela,
+          Philippine
+        </p>
+        <p><span>Open Hours of Barangay:</span> Monday to Saturday (8AM-5PM)</p>
+        <p><span>Email:</span> brgy.mapulanglupa2018@gmail.com</p>
+        <div class="about-btn">
+          <a href="#">About Us</a>
+        </div>
+      </div>
+    </section>
+    <section class="wave">
+      <div class="custom-shape-divider-bottom-1677297097">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </section>
+    <section class="tutorial">
+      <h2>How it Works</h2>
+      <div class="images">
+        <img src="images/step1.png" alt="img here" />
+        <img src="images/step2.png" alt="img here" />
+      </div>
+    </section>
+
+    <section class="sections services reveal" id="services">
+      <div class="services-title">
+        <h1>EASE OF ONLINE PROCESS</h1>
+        <p>List of Services of Barangay Mapulang Lupa</p>
+      </div>
+      <div class="cards-parent">
+        <div class="card">
+          <div class="card-title">
+            <h2>Barangay Clearance</h2>
+          </div>
+
+          <div class="card-logo">
+            <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+            <lord-icon
+              src="https://cdn.lordicon.com/pqxdilfs.json"
+              trigger="hover"
+              colors="outline:#131432,primary:#606874,secondary:#850000,tertiary:#ebe6ef"
+              stroke="20"
+              scale="70"
+              style="width: 90px; height: 70px"
+            >
+            </lord-icon>
+          </div>
+          <div class="card-info">
+            <p>Get your Barangay Clearance here!</p>
+          </div>
+          <a href="#">Register Now!</a>
+        </div>
+        <div class="card">
+          <div class="card-title">
+            <h2>Business Permit</h2>
+          </div>
+
+          <div class="card-logo">
+            <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+            <lord-icon
+              src="https://cdn.lordicon.com/pqxdilfs.json"
+              trigger="hover"
+              colors="outline:#131432,primary:#606874,secondary:#850000,tertiary:#ebe6ef"
+              stroke="20"
+              scale="70"
+              style="width: 90px; height: 70px"
+            >
+            </lord-icon>
+          </div>
+          <div class="card-info">
+            <p>Get your Business Permit here!</p>
+          </div>
+          <a href="#">Register Now!</a>
+        </div>
+        <div class="card">
+          <div class="card-title">
+            <h2>Certificate of Indigency</h2>
+          </div>
+
+          <div class="card-logo">
+            <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+            <lord-icon
+              src="https://cdn.lordicon.com/pqxdilfs.json"
+              trigger="hover"
+              colors="outline:#131432,primary:#606874,secondary:#850000,tertiary:#ebe6ef"
+              stroke="20"
+              scale="70"
+              style="width: 90px; height: 70px"
+            >
+            </lord-icon>
+          </div>
+          <div class="card-info">
+            <p>Get your Certificate of Indigency here!</p>
+          </div>
+          <a href="#">Register Now!</a>
+        </div>
+      </div>
+    </section>
+    <div class="sections track slide2" id="track">
+      <div class="track-title">
+        <h1>TRACK</h1>
+        <p>Know when your documents are ready!</p>
+      </div>
+      <div class="search">
+        <input type="text" placeholder="Track your order" />
+        <button>Track</button>
+      </div>
+    </div>
+<hr>
+    <footer id="footer">
+      <div class="footer-content">
+        <div class="concern">
+          <h3>Concern</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate,
+          </p>
+        </div>
+        <div class="concern">
+          <h3>About</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate,
+          </p>
+        </div>
+        <div class="concern">
+          <h3>Quick-links</h3>
+          <div class="links">
+            <img src="images/email.png" alt="" />
+            <a href="https://www.facebook.com/bagongmapulanglupa2018"
+              >facebook</a
+            >
+          </div>
+        </div>
+        <div class="concern">
+          <h3>Contacts</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate,
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
